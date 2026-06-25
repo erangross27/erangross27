@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8&height=160&section=header&text=IntelliCare&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Enterprise%20Medical%20Intelligence%20Platform&descAlignY=54&descSize=20" width="100%"/>
+  <img src="readme-banner.png" alt="IntelliCare — Enterprise Medical Intelligence Platform: clinical AI agent, voice scribe, 900 templates, 884 collections" width="100%"/>
 
   # IntelliCare — Enterprise Medical Intelligence Platform
 
