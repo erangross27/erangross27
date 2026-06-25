@@ -1,34 +1,39 @@
 <div align="center">
 
-  <!-- Animated Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=header&text=IntelliCare&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Enterprise%20Medical%20Intelligence%20Platform&descAlignY=55&descSize=20" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8&height=160&section=header&text=IntelliCare&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Enterprise%20Medical%20Intelligence%20Platform&descAlignY=54&descSize=20" width="100%"/>
 
-  # IntelliCare - Enterprise Medical Intelligence Platform
+  # IntelliCare — Enterprise Medical Intelligence Platform
 
-  ### *AI-Powered Healthcare Platform Built with Claude Opus 4.8*
+  ### *A Claude Opus 4.8 clinical AI agent, a voice scribe, encrypted staff chat, and 900 specialty document views — across 884 medical collections.*
 
-  <!-- Badges -->
-  <p>
-    <img src="https://img.shields.io/badge/Claude-Opus%204.6-7C3AED.svg?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude"/>
-    <img src="https://img.shields.io/badge/node.js-18+-339933.svg?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-    <img src="https://img.shields.io/badge/react-19-61DAFB.svg?style=for-the-badge&logo=react&logoColor=white" alt="React"/>
-    <img src="https://img.shields.io/badge/mongodb-8.4-47A248.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-    <img src="https://img.shields.io/badge/express-5-000000.svg?style=for-the-badge&logo=express&logoColor=white" alt="Express"/>
-  </p>
+  <br/>
+
+  <!-- ▶ Live site (GitHub profiles can't auto-redirect, so this is the front door) -->
+  [![Open the live platform](https://img.shields.io/badge/▶%20%20Open%20the%20live%20platform-erangross27.github.io-3D8BFF?style=for-the-badge&labelColor=060A14)](https://erangross27.github.io/erangross27/)
+
+  <br/><br/>
+
+  <img src="https://img.shields.io/badge/Claude-Opus%204.8-3D8BFF.svg?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude"/>
+  <img src="https://img.shields.io/badge/node.js-18+-339933.svg?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/react-19-61DAFB.svg?style=for-the-badge&logo=react&logoColor=white" alt="React"/>
+  <img src="https://img.shields.io/badge/mongodb-8-47A248.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+  <img src="https://img.shields.io/badge/express-5-000000.svg?style=for-the-badge&logo=express&logoColor=white" alt="Express"/>
 
   <p>
     <img src="https://img.shields.io/badge/Production%20Ready-brightgreen?style=flat-square" alt="Production Ready"/>
-    <img src="https://img.shields.io/badge/HIPAA%20Compliant-red?style=flat-square" alt="HIPAA"/>
-    <img src="https://img.shields.io/badge/Multi--Tenant-purple?style=flat-square" alt="Multi-Tenant"/>
-    <img src="https://img.shields.io/badge/2.1M%20Lines%20of%20Code-blue?style=flat-square" alt="Lines of Code"/>
-    <img src="https://img.shields.io/badge/3%2C500%2B%20Commits-orange?style=flat-square" alt="Commits"/>
+    <img src="https://img.shields.io/badge/HIPAA%20Aligned-red?style=flat-square" alt="HIPAA"/>
+    <img src="https://img.shields.io/badge/Multi--Tenant-3D8BFF?style=flat-square" alt="Multi-Tenant"/>
+    <img src="https://img.shields.io/badge/2M%2B%20Lines%20of%20Code-blue?style=flat-square" alt="Lines of Code"/>
+    <img src="https://img.shields.io/badge/4%2C500%2B%20Commits-orange?style=flat-square" alt="Commits"/>
   </p>
 
   ---
 
-  **A full-stack, enterprise-grade medical intelligence platform featuring conversational AI agents, automated document analysis, drug safety monitoring, real-time clinical decision support, and comprehensive medical data management across 884 medical collections spanning 36 specialties with 23,000+ structured medical fields.**
+  **A full-stack, enterprise-grade medical intelligence platform: a conversational clinical AI agent, a real-time voice scribe, encrypted staff collaboration, automated document analysis, drug-safety monitoring, and clinical decision support — spanning 900 document templates and 884 medical collections across 36 specialties, with 23,000+ structured medical fields.**
 
   *Designed and built as a solo full-stack engineering effort over 5 months.*
+
+  ### 🔗 Live platform → **https://erangross27.github.io/erangross27/**
 
 </div>
 
@@ -43,14 +48,14 @@
 ### Engineering Scale
 | Metric | Count |
 |--------|-------|
-| Lines of Code | **2.1 Million** |
-| Git Commits | **3,500+** |
-| Backend Services | **289** |
-| API Routes | **64** |
-| Data Models | **37** |
+| Lines of Code | **2M+** |
+| Git Commits | **4,500+** |
+| Backend Service Modules | **290+** |
+| API Route Modules | **68 core + 896 edit** |
+| Data Models | **38** |
 | Middleware Layers | **29** |
-| Production Dependencies | **85** |
-| Source Files | **4,200+** |
+| Backend Dependencies | **86** |
+| Source Files | **7,200+** |
 
 </td>
 <td width="50%" valign="top">
@@ -58,13 +63,13 @@
 ### Medical Coverage
 | Metric | Count |
 |--------|-------|
-| Document Templates | **614** |
-| PDF Export Templates | **580** |
+| Document Templates | **900** |
+| PDF Export Templates | **963** |
 | Medical Collections | **884** |
-| Medical Data Fields | **23,400+** |
-| AI Agent Functions | **3,200+** |
-| Field Mapping Modules | **36** |
-| External API Integrations | **15+** |
+| Medical Data Fields | **23,000+** |
+| AI Agent Functions | **3,600+** |
+| Specialty Field-Mapping Modules | **35** |
+| External API Integrations | **25** |
 | Learning System Services | **20** |
 
 </td>
@@ -75,142 +80,147 @@
 
 ## Core Capabilities
 
-### AI-Powered Conversational Agent
+### 🧠 Conversational Clinical AI Agent
 
-The platform implements true agentic behavior using the **Anthropic Claude Agent SDK** powered by **Claude Opus 4.8**:
+A true agentic assistant powered by **Claude Opus 4.8**, built as a **custom agentic loop directly on the Anthropic API** (`@anthropic-ai/sdk`):
 
-- **Dynamic Tool Discovery** via Anthropic's native Tool Search feature allows Claude to discover and select from 3,200+ medical functions on-demand, scaling to thousands of tools without consuming context window
-- **Autonomous Agentic Loop** where Claude selects tools, the backend executes them immediately, results are returned to Claude, and Claude decides whether to call more tools or generate a final response — up to 15 autonomous iterations per request
-- **Direct Backend Execution** — selected tools execute immediately in the backend with full results returned to Claude for continued clinical reasoning
-- **Real-time Streaming** delivers text, thinking blocks, and tool execution progress via Server-Sent Events as they're generated
-- **1M Token Context Window** enables analysis of complete patient histories, multi-document comparisons, and complex clinical reasoning in a single request
-- **Prompt Caching** delivers 95% cost reduction on repeated analyses through intelligent cache management
+- **Native Tool Search** — Claude discovers and selects from **3,600+ medical functions** on demand via Anthropic's server-side Tool Search (`tool_search_tool_bm25`) with deferred tool loading, scaling to thousands of tools without consuming the context window
+- **Autonomous agentic loop** — Claude selects tools, the backend executes them immediately against the live (RBAC-secured) database, results return to Claude, and it decides whether to call more tools or answer — up to **15 iterations** per request
+- **Real-time streaming** of text, summarized thinking, and tool-execution progress over Server-Sent Events
+- **1M-token context window** for complete patient histories and multi-document reasoning, with a 980K usable budget
+- **Prompt caching** on the system prompt for lower latency and cost
+- **Patient context persistence** across conversation turns, with today's date injected for correct scheduling logic
 
-### Automated Document Analysis Pipeline
+### 🎙️ Real-Time Voice — Scribe & Voice-Over
 
-A batch processing system that converts unstructured medical documents into structured, searchable clinical data:
+Two-way voice built on **ElevenLabs**:
 
-- **Claude Batch API** integration provides 50% cost savings for bulk document analysis
-- **Skills API Architecture** uses a reusable 1MB medical extraction schema uploaded once and referenced across all analyses
-- **23,400+ Medical Field Extraction** across 884 collections with 36 specialty-specific field mapping modules
-- **Two-Path Storage** maintains both complete unified documents and 884 granular collections for fast querying
-- **Automatic Deduplication** with content hashing prevents reprocessing of duplicate documents
+- **Medical scribe (speech-to-text)** — record a patient visit and it transcribes live with speaker labels via **ElevenLabs Scribe v2 Realtime**; the encrypted audio and full transcript are saved to the patient's visit record
+- **Hands-free voice chat** — talk to the AI agent and have answers spoken back, with echo-prevention and auto-reconnect
+- **Voice patient lookup** — find a patient just by saying their name
+- **Voice-over (text-to-speech)** — read any assistant message aloud in a natural voice, with user-selectable voice and model
 
-### 614 Specialized Document Templates
+### 💬 Real-Time Staff Collaboration
 
-Each medical data type has a dedicated React template with:
+An encrypted, WhatsApp-style chat for clinical teams, over **Socket.IO**:
 
-- **4-Level Search System** enabling document-level, section-level, row-level, and field-level filtering with real-time highlighting
-- **Copy System** with per-section and full-document copy functionality using clinically-formatted output
-- **Professional PDF Export** via `@react-pdf/renderer` with medical-grade formatting (580 PDF templates)
-- **Interactive Data Visualizations** including bar charts for vitals, blood pressure trends, lab values, and clinical scores
-- **Dynamic Lazy Loading** prevents 21MB+ bundle bloat by loading templates on-demand
+- **1:1 and group conversations** with message content **AES-256-GCM encrypted at rest**
+- **Live presence, typing indicators, read receipts, and emoji reactions**
+- Reply/quote, pin, mute, soft-delete and delete-for-everyone, message & conversation search, unread counts
+- Real-time **notifications** for appointments, document/batch AI processing progress, and permission requests
 
-Templates cover specialties including cardiology, neurology, nephrology (including comprehensive dialysis workflows), oncology, emergency medicine, dental, geriatrics, pediatrics, obstetrics, psychiatry, endocrinology, and 24 more.
+### 📄 Automated Document Analysis Pipeline
 
-### Drug Safety & Clinical Decision Support
+Converts unstructured medical documents into structured, queryable clinical data:
 
-- **OpenFDA Integration** with access to 100,000+ drug records for interaction checking, contraindication detection, and adverse event monitoring
-- **RxNorm Service** for medication normalization and cross-referencing
-- **Real-Time Safety Alerts** for dangerous medication combinations with severity classification (major/moderate/minor)
-- **500,000+ Medical Device Records** for device recall and adverse event tracking
+- **Two-pass Claude Batch API** extraction — Phase 1 selects the relevant collections from lightweight descriptors (~95% token savings); Phase 2 forces a single composite extraction tool built from only the selected schemas (≈50% bulk-processing cost savings)
+- **23,000+ structured field extraction** across 884 collections with **35 specialty-specific field-mapping modules**
+- **Dual-path storage** — one complete unified document plus granular per-collection records for fast querying
+- **SHA-256 content-hash deduplication** prevents reprocessing duplicates
+- **DICOM + medical-image analysis** via `dicom-parser` and **Claude Vision** for structured findings
 
-### Intelligent Learning System
+### 🗂️ 900 Specialized Document Templates
 
-A 20-service learning subsystem that continuously improves platform performance:
+Each medical data type has a dedicated React view (**963 paired PDF templates**):
 
-- **Function Interceptor** captures all operation patterns for efficiency analysis
-- **Temporal and Sequence Pattern Engines** identify clinical workflow patterns
-- **Bottleneck Detection** and **Automation Opportunity Analysis** optimize system performance
-- **User Memory Service** and **Personal Assistant** adapt to individual clinician workflows
-- **Workflow Predictor** anticipates next actions based on learned patterns
+- **Live multi-level search** with real-time `<mark>` highlighting across documents, sections, rows, and fields
+- **Copy-to-clipboard** per section or full document, in clinically formatted text
+- **Professional PDF export** via `@react-pdf/renderer` with medical-grade B&W formatting
+- **Inline editing with defer-save** — edits persist as private drafts and only reach the record on explicit approval
+- **Dynamic lazy loading** so hundreds of templates never bloat the initial bundle
+
+### 💊 Drug Safety & Clinical Decision Support
+
+- **OpenFDA** integration for interaction checking, contraindication detection, and adverse-event/recall monitoring
+- **RxNorm / RxNav** medication normalization and **DailyMed** prescribing information
+- **Real-time, severity-rated safety alerts** (major / moderate / minor) for dangerous combinations
+
+### 🔐 Identity & Access Management
+
+Enterprise-grade, healthcare-oriented identity from the database up:
+
+- **Multi-tenant, database-per-organization isolation** — each practice gets a physically separate database
+- **Passwordless sign-in** (email magic links + 6-digit OTP), legacy JWT, and a **zero-knowledge SRP-6a** option
+- **TOTP multi-factor authentication** with backup codes, optionally required org-wide
+- **Role-based access control** — **14 roles** and a **1,786-permission** catalog (read/write across all 884 collections)
+- **Zero-trust service accounts** — every internal service authenticates with least-privilege scoping and auto-suspension
+- **Risk-scored sessions** with device fingerprinting and immutable audit logging
+
+### 🤖 Intelligent Learning System
+
+A **20-service** subsystem that continuously improves the platform:
+
+- Function interceptor captures usage patterns; **sequence & temporal pattern engines** model real clinical workflows
+- **Bottleneck detection** and **automation-opportunity scoring** with ROI estimates
+- **User memory**, **personal assistant**, and a **workflow predictor** that anticipates next actions
+
+---
+
+## How It Works
+
+```
+  01 · INGEST        02 · EXTRACT          03 · STRUCTURE        04 · REASON              05 · DELIVER
+  ───────────        ──────────────        ─────────────         ──────────              ───────────
+  Voice visits,      Two-pass Claude       Dual-path storage:    Opus 4.8 agent          900 templates,
+  PDFs, labs, and    Batch pipeline        one unified record    discovers tools via     voice, and chat
+  DICOM images       selects collections   + granular records    native Tool Search      surface the answer —
+  arrive encrypted   then extracts the     across 884            and chains them in       searchable, copyable,
+  at rest.           structured fields.    collections.          an autonomous loop.      exportable to PDF.
+```
 
 ---
 
 ## Architecture Overview
 
-### High-Level System Design
-
 ```
                     ┌──────────────────────────────────────────────┐
-                    │              FRONTEND                         │
-                    │  React 19 + Vite 7 + Chakra UI + MUI         │
-                    │  ├─ Conversational AI Chat Interface         │
-                    │  ├─ Artifact Panel (3-level document nav)    │
-                    │  ├─ 614 Specialized Document Templates       │
-                    │  ├─ 580 PDF Export Templates                 │
-                    │  ├─ Real-time Streaming (Socket.IO)          │
-                    │  ├─ Staff Collaboration Chat                 │
-                    │  └─ i18n + RTL Language Support              │
+                    │              FRONTEND                          │
+                    │  React 19 + Vite + Chakra UI + MUI            │
+                    │  ├─ Conversational AI chat (SSE streaming)    │
+                    │  ├─ Artifact panel (multi-level navigation)   │
+                    │  ├─ 900 document + 963 PDF templates          │
+                    │  ├─ Voice scribe + voice-over (ElevenLabs)    │
+                    │  ├─ Real-time staff chat (Socket.IO)          │
+                    │  └─ i18n + RTL language support               │
                     └──────────────────┬───────────────────────────┘
-                                       │
-                                    HTTPS/TLS
-                                       │
+                                       │  HTTPS / TLS · SSE · WebSocket
                     ┌──────────────────▼───────────────────────────┐
-                    │              BACKEND API                      │
-                    │  Node.js 18+ / Express 5 / GraphQL           │
-                    │  ├─ 289 Microservices                        │
-                    │  ├─ Agent SDK (Claude Opus 4.6)              │
-                    │  ├─ Batch Document Processor                 │
-                    │  ├─ 36 Specialty Field Mapping Modules       │
-                    │  ├─ 20-Service Learning System               │
-                    │  ├─ External API Gateway (15+ APIs)          │
-                    │  ├─ 29 Middleware Layers                     │
-                    │  └─ OpenTelemetry Observability               │
+                    │              BACKEND API                       │
+                    │  Node.js / Express 5 / GraphQL               │
+                    │  ├─ Agentic loop (Claude Opus 4.8) +          │
+                    │  │   native Tool Search over 3,600+ tools     │
+                    │  ├─ Two-pass Batch document processor         │
+                    │  ├─ 35 specialty field-mapping modules        │
+                    │  ├─ Identity & access (multi-tenant, RBAC)    │
+                    │  ├─ 20-service learning system                │
+                    │  ├─ External API gateway (25 integrations)    │
+                    │  └─ 29 middleware layers · OpenTelemetry      │
                     └──────────────────┬───────────────────────────┘
-                                       │
                     ┌──────────────────▼───────────────────────────┐
-                    │              DATA LAYER                       │
-                    │  MongoDB 8.4 + Redis                          │
-                    │  ├─ Multi-tenant Database Isolation           │
-                    │  ├─ 884 Medical Collections                  │
-                    │  ├─ AES-256-GCM Field-Level Encryption       │
-                    │  ├─ Immutable Audit Logs                     │
-                    │  └─ Change Streams for Real-time Sync        │
+                    │              DATA LAYER                        │
+                    │  MongoDB 8 + Redis                            │
+                    │  ├─ Database-per-organization isolation       │
+                    │  ├─ 884 medical collections                   │
+                    │  ├─ AES-256-GCM field-level encryption        │
+                    │  └─ Immutable, hash-chained audit logs        │
                     └──────────────────────────────────────────────┘
-```
-
-### AI Agent Pipeline (Claude Agent SDK)
-
-```
-  Natural Language Query
-         │
-         ▼
-  ┌─────────────────────┐
-  │  Tool Search         │  Anthropic's native Tool Search
-  │  (Dynamic Discovery) │  discovers relevant functions from
-  └─────────┬───────────┘  3,200+ available medical operations
-            │
-            ▼
-  ┌─────────────────────┐
-  │  Agentic Loop        │  Claude autonomously calls tools,
-  │  (Up to 15 rounds)   │  backend executes immediately,
-  │                      │  Claude analyzes results and
-  │                      │  decides next action or responds
-  └─────────┬───────────┘
-            │
-            ▼
-  ┌─────────────────────┐
-  │  Real-time Stream    │  Text + tool progress streamed
-  │  + Artifact Panel    │  via SSE to artifact panel
-  └─────────────────────┘
 ```
 
 ---
 
 ## Security Architecture
 
-IntelliCare implements **defense-in-depth** security designed for healthcare compliance:
+IntelliCare implements **defense-in-depth** designed for healthcare compliance:
 
 | Layer | Implementation |
-|-------|---------------|
-| **Data Isolation** | Database-per-organization multi-tenant architecture with row-level security filters on every query |
-| **Encryption** | AES-256-GCM field-level encryption at rest, HTTPS/TLS in transit, production KMS with master key hierarchy |
-| **Access Control** | Service account system with granular permissions, RBAC middleware, and zero-knowledge authentication support |
-| **Audit** | Immutable audit logs tracking all data access, breach notification system, and configurable data retention policies |
-| **API Security** | Rate limiting (10K queries/min per service), circuit breakers, MongoDB operator validation against injection, GraphQL depth limiting and query complexity analysis |
-| **Compliance** | HIPAA-compliant data handling, Business Associate Agreement management, PHI anonymization service for research |
-| **Monitoring** | Threat detection, security chaos testing, OpenTelemetry distributed tracing, performance monitoring |
+|-------|----------------|
+| **Data Isolation** | Database-per-organization multi-tenant architecture with row-level scoping on every query |
+| **Encryption** | AES-256-GCM field-level encryption at rest (envelope KMS with a master-key hierarchy), HTTPS/TLS in transit |
+| **Identity** | Passwordless (magic-link + OTP), TOTP MFA with backup codes, zero-knowledge SRP-6a, cookie-based server sessions with CSRF |
+| **Access Control** | RBAC with 14 roles and 1,786 permissions, zero-trust service accounts with least-privilege scoping, risk-scored sessions |
+| **Audit** | Immutable, hash-chained audit logs of all data access, with breach-notification and configurable retention |
+| **API Security** | Rate limiting, circuit breakers, MongoDB-injection validation, GraphQL depth limiting, Helmet, request threat detection |
+| **Compliance** | HIPAA-aligned data handling, PHI anonymization for research |
 
 ---
 
@@ -218,26 +228,25 @@ IntelliCare implements **defense-in-depth** security designed for healthcare com
 
 ### Backend
 | Category | Technologies |
-|----------|-------------|
-| **Runtime & Framework** | Node.js 18+, Express 5, GraphQL (Apollo Server) |
-| **AI & LLM** | Anthropic Claude Opus 4.6, Claude Agent SDK v0.2, Batch API, Skills API, Tool Search, Code Execution |
-| **Database** | MongoDB 8.4, Mongoose 9, Redis 5 |
-| **Search & ML** | LangChain, Transformers.js |
-| **Observability** | OpenTelemetry (7 packages), Winston logging with daily rotation |
-| **Communication** | Socket.IO, SendGrid, Twilio, Nodemailer |
-| **File Processing** | PDF parsing, OCR (Tesseract.js), DICOM medical imaging, Office documents |
-| **Security** | Helmet, bcrypt, JWT, Zod validation |
-| **External APIs** | OpenFDA, CMS Medicare/Medicaid, ClinicalTrials.gov, NIH RePORTER, PubMed, RxNorm |
+|----------|--------------|
+| **Runtime & Framework** | Node.js, Express 5, GraphQL (Apollo Server) |
+| **AI & LLM** | Anthropic Claude Opus 4.8 (`@anthropic-ai/sdk`), native Tool Search, Batch API, Claude Vision |
+| **Database** | MongoDB 8, Mongoose 9, Redis |
+| **Voice & Realtime** | ElevenLabs Scribe v2 (STT) + TTS, Socket.IO, WebSocket (`ws`), Server-Sent Events |
+| **Observability** | OpenTelemetry, custom category-based logging with rotation |
+| **Communication** | SendGrid, Twilio (SMS), Nodemailer, Google Calendar |
+| **File Processing** | DICOM (`dicom-parser`), PDF complexity analysis, Claude-native document reading |
+| **Security** | Helmet, bcryptjs, jsonwebtoken, speakeasy (TOTP), secure-remote-password (SRP-6a) |
+| **External APIs** | OpenFDA, CMS (Provider Directory, Blue Button 2.0, Medicaid), ClinicalTrials.gov, NIH RePORTER, PubMed, RxNorm, DailyMed, Google Cloud Healthcare/FHIR |
 
 ### Frontend
 | Category | Technologies |
-|----------|-------------|
-| **Framework** | React 19, Vite 7 |
-| **UI Libraries** | Chakra UI 3, Material UI 7, Tailwind CSS 4, Framer Motion |
-| **State** | Zustand 5, React Context |
-| **Data Visualization** | Chart.js, react-chartjs-2 |
-| **PDF Generation** | @react-pdf/renderer 4 |
-| **Real-time** | Socket.IO Client |
+|----------|--------------|
+| **Framework** | React 19, Vite |
+| **UI Libraries** | Chakra UI, Material UI, Tailwind CSS, Framer Motion |
+| **State** | Zustand, React Context |
+| **PDF Generation** | `@react-pdf/renderer` |
+| **Real-time** | Socket.IO client, `@elevenlabs/client`, Web Audio API |
 | **Internationalization** | i18next with RTL support |
 | **Icons** | Lucide React, MUI Icons |
 
@@ -245,7 +254,7 @@ IntelliCare implements **defense-in-depth** security designed for healthcare com
 
 ## Medical Specialty Coverage
 
-The platform includes **884 medical data collections** with **23,400+ structured fields**, organized across **36 medical specialties** with dedicated field mapping modules, document templates, and extraction schemas:
+**884 medical collections** with **23,000+ structured fields** across **36 specialties**, each with dedicated field-mapping modules, document templates, and extraction schemas:
 
 <table>
 <tr>
@@ -308,54 +317,48 @@ The platform includes **884 medical data collections** with **23,400+ structured
 
 ## External API Integrations
 
+**25 distinct integrations**, most routed through a single gateway with caching, rate limiting, and circuit breakers:
+
 | Provider | APIs | Purpose |
 |----------|------|---------|
-| **FDA** | OpenFDA Drug Events, Labels, Enforcement, NDC, Shortages, Devices; iRES Reports; Data Dashboard; Product Code Builder | Drug safety, interaction checking, device monitoring |
-| **CMS** | Provider Directory, Blue Button 2.0, Medicaid Data API (DKAN) | Medicare claims import, Medicaid enrollment & drug utilization |
-| **NIH** | ClinicalTrials.gov, NIH RePORTER, PubMed E-utilities | Clinical trial matching, research literature search |
-| **Pharmacy** | RxNorm | Medication normalization and cross-referencing |
-| **Google** | Cloud Healthcare API | FHIR interoperability |
+| **FDA** | OpenFDA (events, labels, enforcement, NDC, devices), iRES, Data Dashboard, Product Code Builder, Establishment ID | Drug safety, recalls, device monitoring |
+| **CMS** | Provider Directory, Blue Button 2.0 (OAuth + FHIR R4), Medicaid Data (DKAN) | Provider lookup, Medicare claims import, Medicaid datasets |
+| **NIH / NLM / NCBI** | ClinicalTrials.gov, NIH RePORTER, PubMed, RxNorm, DailyMed | Trials, research, literature, drug normalization |
+| **Google** | Cloud Healthcare API (FHIR), Calendar | Interoperability, appointment sync |
+| **Voice & Messaging** | ElevenLabs (TTS + STT), SendGrid, Twilio (SMS) | Voice scribe/voice-over, email, SMS |
+| **Security** | VirusTotal, AlienVault OTX, abuse.ch | File / threat reputation |
 
 ---
 
 ## Key Engineering Highlights
 
 ### Developed in 5 Months (Solo)
-- **3,500+ commits** averaging 24 commits/day
-- **2.1 million lines** of production code
-- **289 backend services** with comprehensive test coverage
-- From first commit to production-ready enterprise platform
-
-### Scale of the Template System
-- **614 document templates** each with 4-level search, copy buttons, and real-time highlighting
-- **580 matching PDF templates** for professional medical document export
-- **Dynamic lazy loading** architecture that prevents multi-megabyte initial bundles
-- Each template handles complex medical data parsing: embedded subtitles, multi-group structures, entity recognition, and configurable text splitters
+- **4,500+ commits** and **2M+ lines** of production code
+- From first commit to a production-ready enterprise platform — backend, frontend, AI, voice, chat, identity, and security
 
 ### AI Integration Depth
-- **Claude Agent SDK** with native Tool Search for dynamic discovery from 3,200+ medical functions — Claude autonomously chains tool calls in an agentic loop
-- **20-service learning system** that captures usage patterns, detects bottlenecks, and predicts clinical workflows
-- **Medical image analysis** with DICOM support, Claude Vision integration, and structured findings extraction
-- **Staff collaboration chat** for inter-clinician communication within the platform
+- Custom agentic loop on the Anthropic SDK with **native Tool Search over 3,600+ medical functions**
+- **Two-pass Batch extraction** pipeline turning unstructured documents into 23,000+ structured fields
+- **Medical image analysis** with DICOM support and Claude Vision
 
-### Security Engineering
-- **29 middleware layers** implementing defense-in-depth (authentication, authorization, rate limiting, threat detection, audit logging, circuit breakers)
-- **Field-level encryption** with production KMS and master key hierarchy
-- **Multi-tenant isolation** ensuring complete data separation between organizations
-- **GraphQL security** with depth limiting, query complexity analysis, and rate limiting
+### Scale of the Template System
+- **900 document templates** + **963 PDF templates**, each with multi-level search, copy, defer-save editing, and PDF export
+- **Dynamic lazy loading** that prevents multi-megabyte initial bundles
+
+### Platform Breadth
+- Real-time **voice scribe**, **encrypted staff chat**, a **20-service learning system**, and full **identity & access management** (multi-tenant, MFA, RBAC, zero-trust)
 
 ---
 
 ## Development Methodology
 
-This platform was built using a highly disciplined **AI-assisted development workflow**:
+Built using a disciplined **AI-assisted development workflow**:
 
-- **Claude Code CLI** (Anthropic's official coding agent) used throughout development with Claude Opus 4.6
-- **MCP Memory Server** for persistent architectural knowledge across development sessions
-- **Custom Skills System** providing structured approaches for brainstorming, debugging, code review, test-driven development, and frontend design
-- **65-Rule Template Checklist** ensuring consistency across all 614 document templates
-- **Session Tracking** with automatic progress logging and decision documentation
-- **Specialty Roadmaps** defining tier-based feature rollouts per medical domain
+- **Claude Code** (Anthropic's official coding agent) with **Claude Opus 4.8** throughout
+- **MCP memory server** for persistent architectural knowledge across sessions
+- **Custom skills system** for brainstorming, debugging, code review, TDD, and frontend design
+- **Template checklists** ensuring consistency across all 900 document templates
+- **Automated route validation** wired to commit hooks to prevent AI-written backend regressions
 
 ---
 
@@ -366,30 +369,32 @@ This platform was built using a highly disciplined **AI-assisted development wor
 | Core Platform | Production Ready |
 | AI Agent (Claude Opus 4.8) | Production Ready |
 | Document Analysis Pipeline | Production Ready |
-| 614 Document Templates | Production Ready |
+| 900 Document Templates | Production Ready |
+| Voice Scribe & Voice-Over | Production Ready |
+| Real-Time Staff Chat | Production Ready |
+| Identity & Access Management | Production Ready |
 | Drug Safety (OpenFDA) | Production Ready |
 | Multi-Tenant Security | Production Ready |
-| Staff Chat | Production Ready |
-| Medical Image Analysis | Production Ready |
 | Learning System | Active Development |
-| FHIR Interoperability | Planned |
+| FHIR Interoperability | In Progress |
 
 ---
 
 ## About This Repository
 
-This is a **private repository**. This README is shared for portfolio and resume purposes to demonstrate the scope and technical depth of the project. The platform is designed for healthcare organizations requiring enterprise-grade medical data management with AI-powered clinical intelligence.
+This is a **private repository**. This README and the [live platform site](https://erangross27.github.io/erangross27/) are shared for portfolio purposes to demonstrate the scope and technical depth of the project. IntelliCare is designed for healthcare organizations requiring enterprise-grade medical data management with AI-powered clinical intelligence.
 
 ### Contact
 
 - **Developer**: Eran Gross
+- **Live platform**: [erangross27.github.io/erangross27](https://erangross27.github.io/erangross27/)
 - **GitHub**: [@erangross27](https://github.com/erangross27)
 
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8&height=100&section=footer" width="100%"/>
 
-  **Built with Claude Opus 4.6 | Full-Stack Solo Engineering | 5 Months | 2.1M Lines of Code**
+  **Built with Claude Opus 4.8 · Full-Stack Solo Engineering · 5 Months · 2M+ Lines of Code**
 
 </div>
