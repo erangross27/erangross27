@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="readme-banner.png" alt="IntelliCare — Enterprise Medical Intelligence Platform: clinical AI agent, voice scribe, 900 templates, 884 collections" width="100%"/>
+  <a href="https://erangross27.github.io/erangross27/"><img src="readme-banner.png" alt="IntelliCare — Enterprise Medical Intelligence Platform: clinical AI agent, voice scribe, 900 templates, 884 collections" width="100%"/></a>
 
   # IntelliCare — Enterprise Medical Intelligence Platform
 
