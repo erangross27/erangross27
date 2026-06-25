@@ -288,7 +288,7 @@
         <a href="#specialties">Specialties</a>
         <a href="#integrations">Integrations</a>
       </nav>
-      <a class="nav-cta" href="https://github.com/erangross27" target="_blank" rel="noopener">GitHub ↗</a>
+      <a class="nav-cta" href="#contact">Contact</a>
     </div>
   </header>
 
@@ -512,14 +512,16 @@
     </div>
   </section>
 
-  <section class="closing">
+  <section id="contact" class="closing">
     <div class="wrap">
       <div class="close-card obs reveal">
-        <h2>A complete medical intelligence platform.</h2>
-        <p>One system spanning the AI agent, the document pipeline, 900 templates, voice, chat, identity, and security — for every patient record.</p>
+        <h2>Let's talk.</h2>
+        <p>A complete medical intelligence platform — the AI agent, document pipeline, 900 templates, voice, chat, identity, and security in one system. Interested, or have a question? Get in touch.</p>
         <div class="hero-cta">
-          <a class="btn btn-primary" href="https://github.com/erangross27" target="_blank" rel="noopener">View the work on GitHub ↗</a>
+          <a class="btn btn-primary" id="contactEmail" href="https://github.com/erangross27">Get in touch ✉</a>
+          <a class="btn btn-ghost" href="https://github.com/erangross27" target="_blank" rel="noopener">View on GitHub ↗</a>
         </div>
+        <p class="contact-line" id="contactLine" style="margin-top:18px;font-size:14px;color:var(--faint);"></p>
       </div>
     </div>
   </section>
@@ -536,6 +538,13 @@
     (function () {
       var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       var yr = document.getElementById('yr'); if (yr) yr.textContent = new Date().getFullYear();
+
+      // Assemble contact email at runtime so it never appears as plain text in the HTML (reduces spam scraping)
+      var EU = 'erangross03', ED = 'gmail.com', EMAIL = EU + '@' + ED;
+      var ce = document.getElementById('contactEmail');
+      if (ce) { ce.href = 'mailto:' + EMAIL + '?subject=' + encodeURIComponent('IntelliCare inquiry'); }
+      var cl = document.getElementById('contactLine');
+      if (cl) { cl.innerHTML = 'or email <a href="mailto:' + EMAIL + '" style="color:var(--blue-bright)">' + EMAIL + '</a>'; }
 
       // Count-up
       function countUp(el) {
