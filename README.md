@@ -31,7 +31,7 @@
 
   **A full-stack, enterprise-grade medical intelligence platform: a conversational clinical AI agent, a real-time voice scribe, encrypted staff collaboration, automated document analysis, drug-safety monitoring, and clinical decision support — spanning 900 document templates and 884 medical collections across 36 specialties, with 23,000+ structured medical fields.**
 
-  *Designed and built as a solo full-stack engineering effort over 5 months.*
+  *Conversational AI, automated documentation, and clinical decision support — unified in one platform.*
 
   ### 🔗 Live platform → **https://erangross27.github.io/erangross27/**
 
@@ -332,9 +332,9 @@ IntelliCare implements **defense-in-depth** designed for healthcare compliance:
 
 ## Key Engineering Highlights
 
-### Developed in 5 Months (Solo)
+### Engineering Depth
 - **4,500+ commits** and **2M+ lines** of production code
-- From first commit to a production-ready enterprise platform — backend, frontend, AI, voice, chat, identity, and security
+- A production-ready enterprise platform — backend, frontend, AI, voice, chat, identity, and security
 
 ### AI Integration Depth
 - Custom agentic loop on the Anthropic SDK with **native Tool Search over 3,600+ medical functions**
@@ -395,6 +395,6 @@ This is a **private repository**. This README and the [live platform site](https
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,8&height=100&section=footer" width="100%"/>
 
-  **Built with Claude Opus 4.8 · Full-Stack Solo Engineering · 5 Months · 2M+ Lines of Code**
+  **Built with Claude Opus 4.8 · Enterprise Medical Intelligence · 2M+ Lines of Code**
 
 </div>

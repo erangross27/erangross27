@@ -233,10 +233,31 @@
     }
     @media (max-width:560px) {
       body { font-size:16px; }
-      section { padding:58px 0; }
-      .hero { padding:56px 0 48px; }
-      .stats { grid-template-columns:repeat(2,1fr); }
+      .wrap { padding:0 18px; }
+      section { padding:54px 0; }
+      .hero { padding:40px 0 40px; }
+      .hero h1 { font-size:33px; }
+      .hero p.lede { font-size:16.5px; }
+      .section-head { margin-bottom:34px; }
+      .section-head h2 { font-size:25px; }
+      .section-head p { font-size:16px; }
+      .hero-cta { flex-direction:column; align-items:stretch; gap:12px; }
+      .hero-cta .btn { width:100%; justify-content:center; }
+      .stats { grid-template-columns:repeat(2,1fr); gap:24px 14px; }
       .flow { grid-template-columns:1fr; }
+      .flow .node { padding:16px 0; }
+      .flow .node + .node { padding-left:0; }
+      .card { padding:22px; }
+      .close-card { padding:42px 22px; }
+      .readout .body { min-height:0; }
+      .foot-inner { flex-direction:column; align-items:flex-start; gap:6px; }
+    }
+    @media (max-width:380px) {
+      .hero h1 { font-size:29px; }
+      .brand { font-size:17px; }
+      .nav-cta { padding:8px 12px; font-size:12.5px; }
+      .stats { gap:20px 12px; }
+      .stat .num { font-size:26px; }
     }
     @media (prefers-reduced-motion:reduce) {
       *, *::before, *::after { animation:none !important; scroll-behavior:auto !important; transition:none !important; }
@@ -494,8 +515,8 @@
   <section class="closing">
     <div class="wrap">
       <div class="close-card obs reveal">
-        <h2>One engineer. Five months. A full medical platform.</h2>
-        <p>IntelliCare is a solo full-stack effort — 2M+ lines of code, 4,500+ commits — spanning the AI agent, the document pipeline, 900 templates, voice, chat, identity, and security.</p>
+        <h2>A complete medical intelligence platform.</h2>
+        <p>One system spanning the AI agent, the document pipeline, 900 templates, voice, chat, identity, and security — for every patient record.</p>
         <div class="hero-cta">
           <a class="btn btn-primary" href="https://github.com/erangross27" target="_blank" rel="noopener">View the work on GitHub ↗</a>
         </div>
