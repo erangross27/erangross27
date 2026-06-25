@@ -5,7 +5,7 @@
 
   # IntelliCare - Enterprise Medical Intelligence Platform
 
-  ### *AI-Powered Healthcare Platform Built with Claude Opus 4.6*
+  ### *AI-Powered Healthcare Platform Built with Claude Opus 4.8*
 
   <!-- Badges -->
   <p>
@@ -77,7 +77,7 @@
 
 ### AI-Powered Conversational Agent
 
-The platform implements true agentic behavior using the **Anthropic Claude Agent SDK** powered by **Claude Opus 4.6**:
+The platform implements true agentic behavior using the **Anthropic Claude Agent SDK** powered by **Claude Opus 4.8**:
 
 - **Dynamic Tool Discovery** via Anthropic's native Tool Search feature allows Claude to discover and select from 3,200+ medical functions on-demand, scaling to thousands of tools without consuming context window
 - **Autonomous Agentic Loop** where Claude selects tools, the backend executes them immediately, results are returned to Claude, and Claude decides whether to call more tools or generate a final response — up to 15 autonomous iterations per request
@@ -364,7 +364,7 @@ This platform was built using a highly disciplined **AI-assisted development wor
 | Area | Status |
 |------|--------|
 | Core Platform | Production Ready |
-| AI Agent (Claude Opus 4.6) | Production Ready |
+| AI Agent (Claude Opus 4.8) | Production Ready |
 | Document Analysis Pipeline | Production Ready |
 | 614 Document Templates | Production Ready |
 | Drug Safety (OpenFDA) | Production Ready |
