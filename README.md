@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/2_apps_live_on-Google_Play-2E6B52?style=for-the-badge&logo=googleplay&logoColor=white" alt="2 apps live on Google Play" />
   <img src="https://img.shields.io/badge/iPhone_%26_iPad-in_development-5C6B63?style=for-the-badge&logo=apple&logoColor=white" alt="iPhone and iPad app in development" />
-  <img src="https://img.shields.io/badge/AI-Claude_clinical_agent-3D8BFF?style=for-the-badge&logo=anthropic&logoColor=white" alt="AI clinical agent" />
+  <img src="https://img.shields.io/badge/IntelliCare-patient_management_on_Claude_AI-3D8BFF?style=for-the-badge&logo=anthropic&logoColor=white" alt="IntelliCare: patient management system based on Claude AI" />
   <img src="https://img.shields.io/badge/based_in-Israel-1F2937?style=for-the-badge" alt="Based in Israel" />
 </p>
 
@@ -19,7 +19,7 @@ I design, build and ship my own products end to end — the app, the store page,
 
 | | **Ads Pulse** | **Home Proof** | **IntelliCare** |
 |---|---|---|---|
-| **What it is** | Your ChatGPT Ads account on your phone | Your home's records and proof | AI-powered patient management |
+| **What it is** | Your ChatGPT Ads account on your phone | Your home's records and proof | Patient management system based on Claude AI |
 | **Platforms** | Android | Android · iPhone & iPad in development | Web · iOS · Android |
 | **Status** | ✅ Live on Google Play | ✅ Live on Google Play | 🧪 Public code |
 | **Languages** | 10 | 19 | — |
@@ -90,10 +90,10 @@ I design, build and ship my own products end to end — the app, the store page,
   IntelliCare
 </h2>
 
-**The software a clinic runs on — run by an AI agent you talk to.** Patient records, appointments, clinical documents, billing and insurance, and patient messaging in one system, with a Claude clinical agent built in that can operate all of it: find a patient, answer from the chart, check drug safety, book the visit and write the paperwork.
+**A patient management system based on Claude AI.** Patient records, appointments, clinical documents, billing and insurance, and patient messaging in one system — and Claude AI runs all of it from plain language: find a patient, answer from the chart, check drug safety, book the visit and write the paperwork.
 
 <a href="https://github.com/erangross27/intellicare-platform">
-  <img src="https://raw.githubusercontent.com/erangross27/intellicare-platform/main/readme-banner.png" alt="IntelliCare — the AI-powered patient management system" width="100%" />
+  <img src="https://raw.githubusercontent.com/erangross27/intellicare-platform/main/readme-banner.png" alt="IntelliCare — patient management system based on Claude AI" width="100%" />
 </a>
 
 🤖 3,600+ agent functions · 🗂️ 884 medical collections · 🩺 36 specialties · 📄 ~900 document templates · 💊 Drug-safety checks · 🎙️ Voice rounds and visit → SOAP notes · 📱 Native iPhone and Android app
