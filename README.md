@@ -13,8 +13,6 @@
 
 I design, build and ship my own products end to end — the app, the store page, the screenshots, the languages and every release.
 
-> *Don't trust code, enforce architecture.*
-
 <br />
 
 ## 🚀 What I've built
