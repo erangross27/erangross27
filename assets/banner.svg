@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Eran Gross — I build and ship apps: Android, iOS and AI">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07101D"/>
+      <stop offset="0.55" stop-color="#0A1A1A"/>
+      <stop offset="1" stop-color="#0D2A20"/>
+    </linearGradient>
+    <radialGradient id="glowBlue" cx="0.82" cy="0.25" r="0.45">
+      <stop offset="0" stop-color="#3D8BFF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#3D8BFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowGreen" cx="0.12" cy="0.95" r="0.5">
+      <stop offset="0" stop-color="#3FA37A" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#3FA37A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3FA37A" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#3FA37A"/>
+      <stop offset="0.7" stop-color="#3D8BFF"/>
+      <stop offset="1" stop-color="#3D8BFF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="18" fill="url(#grid)"/>
+  <rect width="1280" height="320" rx="18" fill="url(#glowBlue)"/>
+  <rect width="1280" height="320" rx="18" fill="url(#glowGreen)"/>
+
+  <!-- pulse line: a chart that turns into a heartbeat -->
+  <path filter="url(#soft)" fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+        d="M640 252 L720 252 L748 238 L772 246 L800 214 L828 228 L856 196 L884 252 L940 252 L956 236 L972 252 L992 252 L1006 160 L1024 300 L1040 220 L1056 252 L1092 252 L1108 238 L1124 252 L1280 252"/>
+  <circle cx="1006" cy="160" r="5" fill="#E8F1FF" filter="url(#soft)"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="72" y="118" fill="#FFFFFF" font-size="64" font-weight="700" letter-spacing="-1">Eran Gross</text>
+    <text x="74" y="162" fill="#AFC0CF" font-size="24">I build and ship apps, end to end — Android · iOS · AI</text>
+
+    <g font-size="17" font-weight="600">
+      <rect x="72" y="200" width="136" height="38" rx="19" fill="#3FA37A" fill-opacity="0.14" stroke="#3FA37A" stroke-opacity="0.65"/>
+      <circle cx="94" cy="219" r="5" fill="#5CC497"/>
+      <text x="108" y="225" fill="#D7EFE3">Ads Pulse</text>
+
+      <rect x="222" y="200" width="150" height="38" rx="19" fill="#3FA37A" fill-opacity="0.14" stroke="#3FA37A" stroke-opacity="0.65"/>
+      <circle cx="244" cy="219" r="5" fill="#5CC497"/>
+      <text x="258" y="225" fill="#D7EFE3">Home Proof</text>
+
+      <rect x="386" y="200" width="144" height="38" rx="19" fill="#3D8BFF" fill-opacity="0.14" stroke="#3D8BFF" stroke-opacity="0.7"/>
+      <circle cx="408" cy="219" r="5" fill="#6FA8FF"/>
+      <text x="422" y="225" fill="#DCE9FF">IntelliCare</text>
+    </g>
+  </g>
+</svg>
